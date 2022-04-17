@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+/* Header/logo Title */
+.header {
+  padding: 16px;
+  text-align: center;
+  background: rgb(244, 57, 57);
+  color: white;
+  background-image: url(img/logo_header.png);
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+/* Header/Navigation  */
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 4px;
+}
+.button {
+  text-decoration: none; 
+  display:inline-block; 
+  padding: 8px 16px 8px 16px; 
+  background-color: red; 
+  color: white; 
+  border-radius: 6px;
+  
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar .active {
+  background-color: red;
+}
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f5e2e2;
+  padding: 20px;
+}
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+.responsive {
+  float: left;
+  width: 30%;
+  border: 1px solid #333;
+  margin-right: 8px;
+  border-radius: 8px;
+}
+.card {
+  border: 1px solid;
+  padding: 16px;
+  box-shadow: 2px 4px 1px gray;
+  border-radius: 16px;
+  margin-top: 24px;
+  background-color: white;
+}
+
+.product {
+  border-radius: 6px;
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+</style>
+<body>
+    <table width="80%" align="center" cellspacing="0" border="2" cellpadding="16px" style="text-align:center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; border: none;">
+        <tbody>
+            <tr>
+                 <!-- Logo -->
+<div style="background:white;padding:5px">
+    <center>
+    <img src="img/logo_lazwardi.png" alt="logo src lazwardi" width="50%" >
+  </center>
+  </div>
+  
+  <!-- Header -->
+  <div class="header">
+      <h4>Mari Berbelanja di</h4>
+      <h1>SRC LAZWARDI</h1>
+      <h4>Dekat Hemat Bersahabat</h4>
+      <a href="makanan.html" class="button"><b>Lanjut Belanja</b></a>
+  </div>
+  
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="makanan.html">Makanan</a>
+    <a href="minuman.html">Minuman</a>
+    <a href="detail.html">Produt Details</a>
+    <a href="tentang.html" class="active">Tentang</a>
+  </div>
+  <table width="80%" align="center" cellspacing="0" border="2" cellpadding="16px" style="text-align:center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; border: none;">
+    <tbody>
+        <tr>
+            <td colspan="5">
+                <h2>Tujuan kami</h2>
+                <p> Kami percaya pada kekuatan transformatif dari teknologi dan ingin mengubah dunia menjadi lebih baik dengan menyediakan platform untuk menghubungkan pembeli dan penjual dalam satu komunitas.</p>
+                <h3> Posisi Kami</h3>
+                <p> Untuk pengguna Internet di seluruh wilayah, Shopee menawarkan pengalaman belanja online komprehensif, dari berbagai pilihan produk sampai ke sebuah komunitas sosial untuk bereksplorasi, dan layanan untuk selalu memenuhi kebutuhan konsumen tanpa hambatan.</p>
+                <h3>Kepribadian Kami</h3>
+                <p> Untuk menggambarkan siapa kami - bagaimana kami berbicara, bertindak, dan bereaksi terhadap situasi tertentu - pada dasarnya, kami Simpel, Bahagia, dan Bersama-sama. </p>
+                <h3> Simpel</h3>
+                <p>Kami percaya akan kesederhanaan dan integritas; memastikan kehidupan yang jujur, rendah hati, dan apa adanya.</p>
+                <h3>Bahagia</h3>
+                <p>Kami ramah, menyenangkan dan energetik, serta menyebarkan sukacita kepada semua orang yang kami temui.</p>
+                <h3> Bersama-sama</h3>
+                <p>Kami menikmati menghabiskan waktu bersama dengan teman-teman dan keluarga sekaligus berbelanja online, serta melakukan hal-hal yang kami sukai sebagai satu kesatuan.</p>
+                <nav align="left">
+                <h2>Nilai Kami</h2>
+                <h4> Kami melayani</h4>
+                <ul>
+                    <li>
+                        Pelanggan selalu benar
+                    </li>
+                    <li>
+                        Melampaui ekspektasi pelanggan, memberikan di atas standar dan lebih dari yang diharapkan
+                    </li>
+                <h4>Kami beradaptasi</h4>
+                <li>
+                    Menerima perubahan yang tidak terduga dan tetap melakukannya dengan baik
+                </li>
+                <li>
+                    Mengantisipasi perubahan dan membuat rencana lebih awal
+                </li>
+                <h4>Kami berlari</h4>
+                <li>
+                    Mempunyai dorongan dari diri sendiri yang kuat untuk menyelesaikan sesuatu, tidak perlu didorong-dorong oleh orang lain
+                </li>
+                <li>
+                    Selalu mempunyai rasa urgensi yang tinggi untuk menyelesaikan pekerjaan
+                </li>
+                <h4>Kami berkomitmen</h4>
+                <li>
+                    Menjadi seseorang yang dapat diandalkan, melakukan apa yang kami katakan akan kami lakukan
+                </li>
+                <li>
+                    Memegang standar yang tinggi; tidak mengambil jalan pintas bahkan saat orang lain tidak ada yang melihat
+                </li>
+                <li>
+                    Berlaku sebagai seorang pemilik; bersikap proaktif mencari cara agar organisasi kita bisa menjadi semakin baik
+                </li>
+                <h4>Kami tetap rendah hati</h4> 
+                <li>
+                    Mempunyai mentalitas bahwa kami adalah underdog, yang masih harus belajar dan terus belajar dari kondisi pasar dan pesaing
+                </li>
+                <li>
+                    Menerima bahwa kami tidak sempurna, dan tidak akan pernah menjadi sempurna
+                </li>
+                <li>
+                    Bekerja keras terlebih dahulu, merayakan dan menikmati kemudian
+                </li>
+                </nav>
+            </td>
+        </tr>
+    </tbody>
+</table>
+        <!-- Footer -->
+        <div>
+            <div class="footer">
+            <h3>®2022 - Yusri Azra Lazwardi | SRC LAZWARDI</h3>
+            <p>Jl. Otista, Ciharalang, Kec. Cijeungjing, Kabupaten Ciamis, Jawa Barat 46271</p>
+            </div>
+            </div>
+</body>
+</html>
